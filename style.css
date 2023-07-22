@@ -67,6 +67,7 @@ aside{
 .middle-div{
     background-color: rgb(243, 241, 241);
     margin-top: 6px;
+    width: 900px;
 }
 
 .mid-div-container{
@@ -210,4 +211,24 @@ aside{
 
   .right{
     margin-left: 70px;
+  }
+
+  /* housing styling starts here */
+  
+  .housing-div{
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  .advance-div{
+    margin-top: 75px;
+    margin-left: 30px;
+  }
+  .vertical-line {
+    margin-top: 60px;
+    width: 1px;
+    height: 120px;
+    background-color: blue;
+    transform: rotate(180deg);
   }

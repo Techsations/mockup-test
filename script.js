@@ -1,21 +1,21 @@
 // Sample data for the stacked bar chart
 const data = {
-    labels: ['Category 1', 'Category 2', 'Category 3', 'Category 4'],
+    labels: ['20', '25', '30', '35', '40', '45', '50'],
     datasets: [
       {
-        label: 'Data Set 1',
-        backgroundColor: 'rgba(75, 192, 192, 0.7)',
-        data: [50, 30, 70, 45],
+        label: 'Employer: K 73,500',
+        backgroundColor: 'rgb(3,37,126)',
+        data: [23, 29, 28, 45, 60, 70, 80],
       },
       {
-        label: 'Data Set 2',
-        backgroundColor: 'rgba(255, 159, 64, 0.7)',
-        data: [20, 50, 30, 25],
+        label: 'Employee: K 52,500',
+        backgroundColor: 'rgb(0,138,216)',
+        data: [36, 30, 33, 65, 60, 76, 80],
       },
       {
-        label: 'Data Set 3',
-        backgroundColor: 'rgba(153, 102, 255, 0.7)',
-        data: [30, 20, 50, 30],
+        label: 'Total Interest: K 244,313',
+        backgroundColor: 'rgb(0,188,227)',
+        data: [46, 49, 50, 70, 80, 77, 80],
       }
     ]
   };

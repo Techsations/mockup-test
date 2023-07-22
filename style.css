@@ -92,6 +92,7 @@ aside{
 .mid-right-div{
     background-color: white;
     margin-top: 6px;
+    display: flex;
     
 }
 .income-container{
@@ -155,4 +156,51 @@ aside{
     fill: #1abc9c;
     text-anchor: middle;
     dominant-baseline: middle;
+  }
+
+  /* retirement strategy sector styling starts */
+
+  .strategy-cont{
+    margin:90px 50px 0px 50px;
+    /* width: 700px; */
+    background-color: red;
+    width: 300px;
+  }
+
+.strategy-div{
+}
+  
+/* slider styling */
+
+.slider-container {
+    width: 180px;
+    /* margin: 50px auto; */
+  }
+
+  .slider {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    border-radius: 5px;
+    background: blue;
+    outline: none;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1abc9c;
+    cursor: pointer;
   }

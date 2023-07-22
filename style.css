@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    background-color: grey;
+}
+
+main{
+
+    display: flex;
+    border-radius: 20px;
+    /* justify-content: space-between; */
+}
+
+/* aside bar styling */
+
+aside{
+    background-color: white;
+    width: 4rem;
+    margin-top: 6px;
+    border-radius: 6px 0px 0px 6px
+}
+
+.logo-div2, .icon-div, .icon-div2 {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.logo-bt {
+    height: 30px;
+    width: 30px;
+} 
+
+.fa-house{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+
+.icon-div2{
+    position: relative;
+    margin-top: 650px;
+}
+
+.notif-icon{
+    /* border: 2px solid blue; */
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 100;
+    left: 37px ;
+}
+
+/* middle page styling starts here */
+
+
+.middle-div{
+    background-color: rgb(243, 241, 241);
+    margin-top: 6px;
+}
+
+.mid-div-container{
+    margin:50px 50px 0px 50px ;
+}
+
+.user-div{
+    display: flex;
+    margin-top: 60px;
+}
+
+.prof-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;    
+}
+.name-div{
+    margin-left: 10px;
+}
+
+
+/* income div styling starts here */
+
+.income-container{
+    background-color: aqua;
+    margin-top: 6px;
+}
+
+.income-div{
+    margin-top: 60px;
+}

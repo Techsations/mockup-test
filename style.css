@@ -90,7 +90,7 @@ aside{
 /* income div styling starts here */
 
 .mid-right-div{
-    background-color: aqua;
+    background-color: white;
     margin-top: 6px;
     
 }
@@ -110,10 +110,24 @@ aside{
 
 /* progress bar styling starts */
 
-.progress-container {
+.num-div{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.progress-container{
+    display: flex;
+    justify-content: space-between;
     width: 200px;
     height: 200px;
     position: relative;
+    margin-right: 60px;
+  }
+
+  svg{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
   }
 
   .progress-background {

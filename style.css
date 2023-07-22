@@ -89,11 +89,21 @@ aside{
 
 /* income div styling starts here */
 
-.income-container{
+.mid-right-div{
     background-color: aqua;
     margin-top: 6px;
+    
+}
+.income-container{
+    margin:50px 50px 0px 50px ;
+    width: 400px;
 }
 
 .income-div{
     margin-top: 60px;
+}
+
+.info-div{
+    display: flex;
+    justify-content: space-between;
 }

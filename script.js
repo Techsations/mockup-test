@@ -1,13 +1,23 @@
-// Sample data for the bar chart
+// Sample data for the stacked bar chart
 const data = {
     labels: ['Category 1', 'Category 2', 'Category 3', 'Category 4'],
-    datasets: [{
-      label: 'Data Set 1',
-      backgroundColor: 'rgba(75, 192, 192, 0.2)',
-      borderColor: 'rgba(75, 192, 192, 1)',
-      borderWidth: 1,
-      data: [50, 30, 70, 45],
-    }]
+    datasets: [
+      {
+        label: 'Data Set 1',
+        backgroundColor: 'rgba(75, 192, 192, 0.7)',
+        data: [50, 30, 70, 45],
+      },
+      {
+        label: 'Data Set 2',
+        backgroundColor: 'rgba(255, 159, 64, 0.7)',
+        data: [20, 50, 30, 25],
+      },
+      {
+        label: 'Data Set 3',
+        backgroundColor: 'rgba(153, 102, 255, 0.7)',
+        data: [30, 20, 50, 30],
+      }
+    ]
   };
 
   // Chart configuration
@@ -16,8 +26,12 @@ const data = {
     data: data,
     options: {
       scales: {
+        x: {
+          stacked: true,
+        },
         y: {
-          beginAtZero: true
+          stacked: true,
+          beginAtZero: true,
         }
       },
       responsive: true,
@@ -25,6 +39,6 @@ const data = {
     },
   };
 
-  // Create the bar chart
-  const ctx = document.getElementById('barChart').getContext('2d');
+  // Create the stacked bar chart
+  const ctx = document.getElementById('stackedBarChart').getContext('2d');
   new Chart(ctx, config);

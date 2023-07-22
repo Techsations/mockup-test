@@ -10,6 +10,7 @@ main{
 
     display: flex;
     border-radius: 20px;
+    height: 100%;
     /* justify-content: space-between; */
 }
 
@@ -163,12 +164,14 @@ aside{
   .strategy-cont{
     margin:90px 50px 0px 50px;
     /* width: 700px; */
-    background-color: red;
+    background-color: #F3F1F1;
     width: 300px;
+    height: 500px;
+  }
+  .strategy-div{
+    margin:30px 30px 0px 30px;
   }
 
-.strategy-div{
-}
   
 /* slider styling */
 
@@ -203,4 +206,8 @@ aside{
     border-radius: 50%;
     background: #1abc9c;
     cursor: pointer;
+  }
+
+  .right{
+    margin-left: 70px;
   }

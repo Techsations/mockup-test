@@ -232,3 +232,53 @@ aside{
     background-color: blue;
     transform: rotate(180deg);
   }
+
+  /* Media query for responsiveness */
+
+  /* Mobile Devices */
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  aside {
+    height: 30%;
+  }
+
+  .middle-div {
+    width: 636px;
+  }
+
+  .mid-right-div {
+    width: 636px;
+    flex-direction: column;
+  }
+
+  .income-container{
+    width: 10%;
+  }
+
+  .progress-container{
+    width: 60%;
+  }
+
+  .chart-div{
+    width: 30%;
+  }
+
+  .current-goal-div{
+    width: 170%;
+  }
+
+  .strategy-cont {
+    margin-top: 30px;
+    width: 80%;
+    height: auto;
+  }
+
+  .strategy-div {
+    margin: 30px;
+  }
+
+  /* Add any other responsive styling for mobile devices here */
+}
